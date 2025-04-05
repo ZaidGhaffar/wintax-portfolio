@@ -16,7 +16,7 @@ const products = [
     category: "Productivity",
     popular: true,
     thumbnailUrl: "/images/calling-agent.jpg",
-    codeUrl: "https://github.com/user/phone-calling-agent",
+    codeUrl: "https://github.com/ZaidGhaffar/Call-buddy",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const products = [
     category: "Marketing",
     popular: false,
     thumbnailUrl: "/images/ZOOX.jpg",
-    codeUrl: "https://github.com/user/self-driving-car",
+    codeUrl: "https://github.com/ZaidGhaffar/Self-Driving-car",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     category: "Support",
     popular: true,
     thumbnailUrl: "/images/Elevenlabs.jpg",
-    codeUrl: "https://github.com/user/customer-support-bot",
+    codeUrl: "https://github.com/ZaidGhaffar/Eleven-Labs-Clone",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const products = [
     videoUrl: "https://www.youtube.com/watch?v=VRhaELxZuec&ab_channel=Stem-ai",
     category: "Analytics",
     popular: false,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvRS6w3JHa_u4fxKKoOmO4dl3zkYeTY6Feg&s",
+    thumbnailUrl: "/images/analyzers.jpg",
     codeUrl: "https://github.com/user/data-analyst",
   },
   {
@@ -60,7 +60,7 @@ const products = [
     videoUrl: "https://youtu.be/sy9c7fqoPlM",
     category: "Productivity",
     popular: true,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmswx76BkQ0qTZCSRY_jSTBAhwS5p086YtA&s",
+    thumbnailUrl: "/images/Next-gen-chip.jpeg",
     codeUrl: "https://github.com/user/personal-assistant",
   },
   {
@@ -71,7 +71,7 @@ const products = [
     videoUrl: "https://youtu.be/-5_--b6V40M",
     category: "Development",
     popular: false,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczgCbSVzQidiqWBicg5q5ZduyjqSrCloE8Q&s",
+    thumbnailUrl: "/images/AI-Brain-2.jpg",
     codeUrl: "https://github.com/user/rag",
   },
   {
@@ -82,8 +82,8 @@ const products = [
     videoUrl: "https://youtu.be/g66DXhLtoeA",
     category: "Development",
     popular: false,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pr9Z7EkS6EViJzysK50Btaku7bbm-hq8yw&s",
-    codeUrl: "https://github.com/user/object-detection-pipeline",
+    thumbnailUrl: "/images/AI-Vr.jpg",
+    codeUrl: "https://github.com/ZaidGhaffar/Detectronix",
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const products = [
     videoUrl: "https://youtu.be/sy9c7fqoPlM",
     category: "Productivity",
     popular: true,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczgCbSVzQidiqWBicg5q5ZduyjqSrCloE8Q&s",
+    thumbnailUrl: "/images/Doctor-4.jpg",
     codeUrl: "https://github.com/user/ai-powered-calculator",
   },
   {
@@ -104,7 +104,7 @@ const products = [
     videoUrl: "https://youtu.be/-5_--b6V40M",
     category: "Development",
     popular: false,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczgCbSVzQidiqWBicg5q5ZduyjqSrCloE8Q&s",
+    thumbnailUrl: "/images/Augmented-Vr.jpg",
     codeUrl: "https://github.com/user/rag",
   },
 ]
