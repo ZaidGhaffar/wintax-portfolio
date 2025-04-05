@@ -2,14 +2,17 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mail, Phone, MapPin, Send } from "lucide-react"
+import emailjs from '@emailjs/browser'
 
 export function ContactSection() {
+  const form = useRef<HTMLFormElement>(null)
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -24,12 +27,26 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real application, you would handle form submission here
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" })
-    // Show success message
-    alert("Message sent successfully!")
+    setIsSubmitting(true)
+    
+    emailjs.sendForm(
+      'service_bfch1qw',
+      'template_u6zfjzm',
+      form.current!,
+      'yR3C4LZC6FvIhrR_1'
+    )
+      .then((result) => {
+        console.log('Email sent successfully:', result.text)
+        setFormData({ name: "", email: "", subject: "", message: "" })
+        alert("Message sent successfully!")
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error.text)
+        alert("Failed to send message. Please try again later.")
+      })
+      .finally(() => {
+        setIsSubmitting(false)
+      })
   }
 
   return (
@@ -82,7 +99,7 @@ export function ContactSection() {
           <div className="lg:col-span-2">
             <Card>
               <CardContent className="p-6">
-                <form onSubmit={handleSubmit}>
+                <form ref={form} onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium mb-2">
@@ -143,9 +160,9 @@ export function ContactSection() {
                     />
                   </div>
 
-                  <Button type="submit" className="w-full md:w-auto gap-2">
+                  <Button type="submit" className="w-full md:w-auto gap-2" disabled={isSubmitting}>
                     <Send size={16} />
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </CardContent>
