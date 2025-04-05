@@ -4,25 +4,25 @@ import { Brain, Zap, Shield, Users } from "lucide-react"
 const features = [
   {
     icon: <Brain className="h-10 w-10 text-indigo-500" />,
-    title: "Advanced AI Technology",
+    title: "AI Engineering",
     description:
-      "Our agents are built on cutting-edge AI models, trained on vast datasets to deliver intelligent, context-aware responses.",
+      "Specialized in building intelligent AI systems, including conversational bots, object detection pipelines, and AI agents for business automation.",
   },
   {
     icon: <Zap className="h-10 w-10 text-indigo-500" />,
-    title: "Efficiency & Speed",
-    description: "Automate repetitive tasks and get instant responses, allowing your team to focus on high-value work.",
+    title: "Full-Stack Development",
+    description: "Experience with FastApi API, Next.js, FastAPI, Flask, and cloud platforms Aws for delivering end-to-end solutions.",
   },
   {
     icon: <Shield className="h-10 w-10 text-indigo-500" />,
-    title: "Security & Privacy",
+    title: "Machine Learning",
     description:
-      "Enterprise-grade security with end-to-end encryption and strict data privacy protocols to protect your information.",
+      "Expertise in deep learning, NLP, computer vision, and generative AI with a focus on building practical, production-ready systems.",
   },
   {
     icon: <Users className="h-10 w-10 text-indigo-500" />,
-    title: "Customizable Agents",
-    description: "Tailor AI agents to your specific business needs, industry requirements, and company voice.",
+    title: "AI Agents & LLMs",
+    description: "Proficient in developing agentic models, LLM engineering, and creating multimodal AI assistants for various business applications.",
   },
 ]
 
@@ -31,36 +31,35 @@ export function AboutSection() {
     <section id="about" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Our Platform</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground">
-            We're revolutionizing how businesses operate by providing specialized AI agents that automate tasks, enhance
-            productivity, and deliver exceptional results.
+            I'm a Full-Stack AI Engineer with 2+ years of experience, specializing in building smart AI systems and the founder of WintaX Technologies.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold mb-4">My Expertise</h3>
             <p className="text-muted-foreground mb-6">
-              Our mission is to democratize access to advanced AI technology, making it accessible and practical for
-              businesses of all sizes. We believe that AI should be a tool that enhances human capabilities rather than
-              replacing them.
+              I specialize in developing AI-powered solutions that solve real business problems. From conversational bots that handle customer calls to custom object detection systems, my focus is on creating practical AI Agents & applications that deliver measurable results.
             </p>
             <p className="text-muted-foreground">
-              By providing specialized AI agents that can handle specific tasks with precision and efficiency, we free
-              up human creativity and strategic thinking for the challenges that truly matter.
+              Tech stack: <br />
+              - Python for Building AI Models,<br />
+              - FastApi API Development <br />
+              - Next.js Frontend <br />
+              - docker Containers <br />
+              - Aws Deployment
+
             </p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-4">Our Story</h3>
+            <h3 className="text-2xl font-bold mb-4">My Journey</h3>
             <p className="text-muted-foreground mb-6">
-              Founded in 2023 by a team of AI researchers and business strategists, our platform emerged from a simple
-              observation: most businesses were struggling to effectively implement AI solutions that delivered real
-              value.
+              With experience at companies like WintaX Technologies and Rockville Technologies, I've developed expertise across the AI spectrum - from machine learning and deep learning to LLM engineering and multimodal AI agents.
             </p>
             <p className="text-muted-foreground">
-              We set out to create a marketplace where businesses could easily find, deploy, and benefit from
-              purpose-built AI agents without needing extensive technical expertise or massive budgets.
+              I hold a Bachelor's degree in Computer Engineering and am passionate about creating AI systems that enhance human capabilities and drive business innovation.
             </p>
           </div>
         </div>

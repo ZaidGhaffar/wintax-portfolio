@@ -22,7 +22,7 @@ export function Navbar() {
         <div className="flex items-center">
           <Link href="/" className="flex items-center space-x-2">
             <span className="font-bold text-2xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-              AI Agents
+              Zaid Ghaffar
             </span>
           </Link>
         </div>

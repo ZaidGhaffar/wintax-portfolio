@@ -22,18 +22,18 @@ export function HeroSection() {
             <div className="flex-1 z-10 mb-12 md:mb-0">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                  Hire AI Agents
+                  Hire AI Developer
                 </span>
                 <br />
                 <span>For Your Business</span>
               </h1>
               <p className="mt-6 text-xl text-muted-foreground max-w-xl">
-                Our marketplace connects you with specialized AI agents designed to automate tasks, enhance productivity,
-                and transform your business operations.
+              I’m a Full-Stack AI Engineer with 2+ years of experience, specializing in building smart AI systems. I’m also the founder of WintaX 
+              Technologies, where we create AI-powered phone assistants that handle customer calls and replace traditional call centers. 
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button size="lg" className="gap-2">
-                  Explore Agents <ArrowRight size={16} />
+                  Hire Me <ArrowRight size={16} />
                 </Button>
                 <Button size="lg" variant="outline">
                   Learn More
