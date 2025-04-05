@@ -96,7 +96,6 @@ const products = [
     thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczgCbSVzQidiqWBicg5q5ZduyjqSrCloE8Q&s",
     codeUrl: "https://github.com/user/ai-powered-calculator",
   },
-  ,
   {
     id: 10,
     title: "RAG",
