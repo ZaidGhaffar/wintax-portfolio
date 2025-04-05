@@ -48,7 +48,8 @@ export function VideoSection() {
             <iframe
               ref={videoRef}
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/p9Q5a1Vn-Hk?autoplay=1&controls=0"
+              
+              src="https://www.youtube.com/embed/wdNWU_FW7Nk?autoplay=1&controls=0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

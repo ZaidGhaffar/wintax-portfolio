@@ -15,7 +15,7 @@ const products = [
     videoUrl: "https://www.youtube.com/watch?v=3LFpf7BKKSU&ab_channel=Stem-ai",
     category: "Productivity",
     popular: true,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczgCbSVzQidiqWBicg5q5ZduyjqSrCloE8Q&s",
+    thumbnailUrl: "/images/calling-agent.jpg",
     codeUrl: "https://github.com/user/phone-calling-agent",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     videoUrl: "https://www.youtube.com/watch?v=FwS0yM1wqTs&ab_channel=Stem-ai",
     category: "Marketing",
     popular: false,
-    thumbnailUrl: "https://th.bing.com/th/id/OIP.oBLrkQ6KTs86wZ5_ahu1fgHaEK?w=291&h=180&c=7&r=0&o=5&pid=1.7",
+    thumbnailUrl: "/images/ZOOX.jpg",
     codeUrl: "https://github.com/user/self-driving-car",
   },
   {
@@ -38,7 +38,7 @@ const products = [
     videoUrl: "https://youtu.be/wdNWU_FW7Nk",
     category: "Support",
     popular: true,
-    thumbnailUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxDCLtV3bCqTXO-4BGP6RHhPHSBQRHzfDmw&s",
+    thumbnailUrl: "/images/Elevenlabs.jpg",
     codeUrl: "https://github.com/user/customer-support-bot",
   },
   {
