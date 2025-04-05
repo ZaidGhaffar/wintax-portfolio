@@ -53,7 +53,7 @@ export function ContactSection() {
                     <Mail className="h-5 w-5 mr-3 text-indigo-500 mt-1" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-muted-foreground">support@aiagents.com</p>
+                      <p className="text-muted-foreground">zaidghaffar.business@gmail.com</p>
                     </div>
                   </div>
 
@@ -61,18 +61,16 @@ export function ContactSection() {
                     <Phone className="h-5 w-5 mr-3 text-indigo-500 mt-1" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                      <p className="text-muted-foreground">+92 3465444 626</p>
                     </div>
                   </div>
 
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 mr-3 text-indigo-500 mt-1" />
                     <div>
-                      <p className="font-medium">Office</p>
+                      <p className="font-medium">Linkedin</p>
                       <p className="text-muted-foreground">
-                        123 AI Boulevard
-                        <br />
-                        San Francisco, CA 94107
+                      https://www.linkedin.com/in/zaid-ghaffar/
                       </p>
                     </div>
                   </div>
