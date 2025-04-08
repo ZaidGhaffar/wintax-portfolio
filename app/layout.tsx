@@ -5,13 +5,13 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Script from 'next/script'
 import { cn } from "@/lib/utils"
+import { enableSmoothScrolling } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI Agents Marketplace",
-  description: "Hire specialized AI agents for your business needs",
-  generator: 'v0.dev'
+  title: "AI Marketplace",
+  description: "Hire AI Developer For Your Business",
 }
 
 export default function RootLayout({
@@ -34,8 +34,17 @@ export default function RootLayout({
             `,
           }}
         />
+        <Script
+          id="smooth-scroll"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (${enableSmoothScrolling.toString()})();
+            `,
+          }}
+        />
       </head>
-      <body className={cn(inter.className, "overflow-hidden")}>
+      <body className={cn(inter.className, "overflow-x-hidden")}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
